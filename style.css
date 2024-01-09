@@ -99,19 +99,6 @@ nav{
     margin: 0;
 }
 
-.hire-btn{
-    background: #ffb742;
-    padding: 6px 30px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 6px;
-    transition: background-color 0.3s ease;
-}
-
-.hire-btn:hover{
-    background: #fb8c00;
-}
 
 .main{
     height: 640px;
@@ -192,10 +179,6 @@ nav{
     font-size: 14px;
 }
 
-.about .info button{
-    margin-top: 30px;
-}
-
 .skills{
     display: flex;
     justify-content: space-around;
@@ -217,9 +200,6 @@ nav{
     font-size: 14px;
 }
 
-.skills .left button{
-    margin-top: 30px;
-}
 
 .skills .right{
     width: 420px;
@@ -446,6 +426,7 @@ footer .cols .links-col a:hover{
     }
 
     .main{
+        padding-top: 50px;
         margin-top: 50px;
         height: 320px;
         justify-content: start;
@@ -463,10 +444,8 @@ footer .cols .links-col a:hover{
         font-size: 12px;
     }
 
-    .main img{
-        margin-top: 40px;
-        width: 150px;
-        height: 150px;
+    .main .logo{
+        font-size: 6rem;
     }
 
     .skills{
