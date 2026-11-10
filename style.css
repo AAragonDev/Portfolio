@@ -147,7 +147,7 @@ nav{
 }
 
 .seprator{
-    margin: 50px 50px 30px;
+    margin: 50px 0 30px;
     padding: 10px 20px;
     background: rgba(255, 255, 255, 0.08);
     display: inline-block;
@@ -160,11 +160,12 @@ nav{
     justify-content: space-between;
     align-items: center;
     gap: 80px;
-    padding: 0 50px;
+    padding: 0;
 }
 
 .about img{
     width: 280px;
+    max-width: 100%;
     border-radius: 200px 200px 200px 200px;
 }
 
@@ -182,12 +183,14 @@ nav{
 
 .skills{
     display: flex;
-    justify-content: space-around;
-    padding: 0 50px;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 0;
 }
 
 .skills .left{
     width: 680px;
+    max-width: 100%;
 }
 
 .skills .left .info h3{
@@ -204,6 +207,7 @@ nav{
 
 .skills .right{
     width: 420px;
+    max-width: 100%;
     height: 120px;
     display: flex;
     align-items: center;
@@ -227,10 +231,19 @@ nav{
     color: #fff;
 }
 
+.content-section,
 .portfolio{
     max-width: 1440px;
-    margin: 90px auto 0;
+    margin: 0 auto;
     padding: 0 clamp(20px, 5vw, 85px);
+    scroll-margin-top: 110px;
+}
+
+.portfolio{
+    margin-top: 90px;
+}
+
+.content-section [id]{
     scroll-margin-top: 110px;
 }
 
